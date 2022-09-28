@@ -1,7 +1,7 @@
-#terceiro trimestre 
+# Terceiro Trimestre 
 
-##identificação 
+## Identificação 
 Emily Monteiro n:8 1C
 
-##conteudo
+## Conteudo
 HTML, CSS e javaScript
