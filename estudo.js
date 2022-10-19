@@ -28,16 +28,19 @@ function cubo(){
         document.write(" o cubo de "+i+" é "+i+" x "+i+" x "+i+" = "+(i*i*i)+"<br>");
     }
 }
+function soma(){
+    let n1= document.getElementById("v1").value;
+    let n2= document.getElementById("v2").value;
+    let n3= document.getElementById("v3").value;
+    let r=(Number (n1) + Number(n2) + Number(n3));
+    document.getElementById("resultado").innerHTML = "somar:" + r;
+    
+    function mult(){
+        let n1= document.getElementById("v1").value;
+        let n2= document.getElementById("v2").value;
+        let n3= document.getElementById("v3").value;
+        let r=(Number (n1) * Number(n2) * Number(n3));
+        document.getElementById("resultado").innerHTML = "multiplicar:" 
 
-function mat(){
-    let v = document.getElementById("valor").value;
-    let j = document.getElementById("juros").value;
-    let t = document.getElementById("meses").value;
-    let r= 0;
-    for(let i=1;  i<=t; i++){
-        r = v * (1+(j/100));
-        v = r;
-    }
-    document.write("Resultado " + r);
+
 }
-
