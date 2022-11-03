@@ -2,7 +2,11 @@
     background: rgb(156, 125, 192);
     width: 200px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(51, 14, 85);
+    position: absolute;
+    left: 40%;
+    top: 10%;
 }
 #calculadora input {
     background: rgb(186, 150, 202);
