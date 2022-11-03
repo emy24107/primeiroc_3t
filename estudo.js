@@ -61,6 +61,16 @@ function mat(){
         //document.write("Mês " + i + " = " + moeda(r) + "<br>");
         
     }
+   
     document.getElementById("totalGeral").innerHTML = "Total: " +moeda(r);
     //document.write("Resultado " + moeda(r));
+}
+function Limpar(){
+    document.getElementById("mes").innerHTML = "";
+    document.getElementById("totalGeral").innerHTML ="0,00";
+    document.getElementById("valor").value ="";
+    document.getElementById("juros").value ="";
+    document.getElementById("messes").value ="";
+  
+
 }
