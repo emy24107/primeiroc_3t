@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(201, 185, 216);
+}
+
+
 #calculadora {
     background: rgb(156, 125, 192);
     width: 200px;
@@ -39,4 +44,13 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: deeppink;
     width: 100px;
+}
+.calcF{
+    display: none;
+}
+#calcFin:checked + #calculadora .calcF{
+    display: block;
+}
+#calcFin {
+    display: none;
 }
