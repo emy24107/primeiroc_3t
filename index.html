@@ -13,9 +13,7 @@
 <body>
 
    <input type="checkbox" id="calcFin">
-
    <div id="calculadora">
-
       <label for="calcFin"><h3>Financeira</h3></label>
       <div class="calcF">
       <div id="spTotal">
@@ -34,6 +32,23 @@
       </div>
       </div>
 
+      <input type="checkbox" id="calcESG">
+      <div id="calculadoraESG">
+      <label for="calcESG">
+         <h3>Equação<br>Segundo Grau</h3>
+      </label>
+      <div class="calcE">
+         <div id="spRaiz">
+            <span id="raiz">x' e x''</span><br>
+         </div>
+         <input id="a" placeholder=" a" type="text">
+         <input id="b" placeholder=" b" type="text">
+         <input id="c" placeholder=" c" type="text">
+         <button onclick="calculaESG()">Calcula</button>
+      </div>
+    </div>
+
+   
 
 
       <br><br><br><br>
