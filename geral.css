@@ -5,19 +5,37 @@ body{
 
 #calculadora {
     background: rgb(156, 125, 192);
+    color: rgb(63, 63, 119);
     width: 200px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px rgb(51, 14, 85);
     position: absolute;
-    left: 40%;
+    left: 30%;
     top: 10%;
+}
+#calculadoraESG {
+    background: rgb(156, 125, 192);
+    color: rgb(63, 63, 119);
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(51, 14, 85);
+    position: absolute;
+    left: 130%;
+    top: 15%;
 }
 #calculadora input {
     background: rgb(186, 150, 202);
     color: blanchedalmond;
     border-radius: 10px;
     padding: 5px;
+}
+#calculadora input:focus {
+    background-color: rgb(227, 195, 236);
+    color:black
+
+
 }
 #calculadora button {
     background: rgb(124, 67, 151);
@@ -47,6 +65,7 @@ body{
 }
 .calcF{
     display: none;
+    color: rgb(4, 3, 34);
 }
 #calcFin:checked + #calculadora .calcF{
     display: block;
